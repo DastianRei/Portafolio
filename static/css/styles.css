@@ -102,12 +102,19 @@ body{
 }
 
 /* Contenedor Izquierdo */
+.contenedorIzquierdo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .titulo
 {
     height: 10%;
 }
 .manual{
-    height: 43%;
+    height: 45%;
 }
 .prediccionDolar{
     height: 40%;
@@ -115,7 +122,6 @@ body{
 .contenedorIzquierdo img{
     border:2px solid black;
     border-radius: 30px;
-    padding: 3px;
 }
 h1{
     color: #5F7161;
@@ -152,7 +158,10 @@ h1{
 
 }
 @media (max-width: 450px){
-    .contendorArriba{
-        flex-direction: column;
+    .contenedorIzquierdo{
+        font-size: x-small
+    }
+    .contenedorIzquierdo img{
+        width: 30%;
     }
 }
