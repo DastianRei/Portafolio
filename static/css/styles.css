@@ -172,4 +172,8 @@ h2{
     .contenedorIzquierdo img{
         width: 30%;
     }
+    .presentacion
+    {
+        font-size: x-small;
+    }
 }
