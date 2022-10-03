@@ -32,7 +32,11 @@ body{
 }
 /* Contenedor Derecho */
 .fotoPerfil{
+    display: flex;
     height: 33%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 .presentacion{
     display: flex;
@@ -87,7 +91,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70%;
+    height: 40%;
 }
 .contenedorMedio img{
     border: 1px solid black;
@@ -95,7 +99,7 @@ body{
 }
 .calendario{
     width: 100%;
-    height: 30%;
+    height: 50%;
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -145,6 +149,10 @@ h1{
     padding: 1px 3px 3px 3px;
     text-decoration: none;
 
+}
+h2{
+    color: #5F7161;
+    text-align: center;
 }
 .btn:hover{
     background: #3D8361;
