@@ -11,70 +11,95 @@
 
 <body>
     <div class="contenedor">
-        <div class="contendorArriba">
-            <div class="contenedorDerecha">
-                <div class="fotoPerfil">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
-                        width="50%">
+        <div class="contenedorArriba">
+            <div class="listaNavegacion">
+                <div class="itemsListaNavegacion">
+                    <div class="itemLista1"> <a href="#contenedor">Inicio</a></div>
+                    <div class="itemLista2"> <a href="#contenedorMedio">Informacion</a></div>
+                    <div class="itemLista3"> <a href="#proyectos">Proyectos</a></div>
                 </div>
-                <div class="presentacion">
+            </div>
+            <div class="presentacion">
+                <div class="fotoUniversidad">
+                    <img src="https://tja.ucb.edu.bo/wp-content/uploads/2020/09/cropped-logo-UCB.png" width="70%">
+                </div>
+                <div class="nombre">
+                    <h1>DAYAN<br>AGUILAR<br>ALCOCER</h1>
+                </div>
+            </div>
+        </div>
+        <div class="contenedorMedio">
+            <div class="contenedorArribaDeMedio">
+                <div class="fotoPerfil">
+                    <center><img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" width="40%"></center>
+                </div>
+                <div class="bibliografia">
                     <p>Hola, Mi nombre es Dayan tengo 20 años me gusta mucho la programacion
                         . Sali del colegio Maryknoll, estoy
                         estudiando en la Universidad Catolica San Pablo Sede CBBA.
                     </p>
                 </div>
-                <div class="fotoLenguaje">
-                    <ul>
-                        <li> <img src="static/files/c++.jpg"></li>
-                        <li><img src="static/files/python.jpg"></li>
-                    </ul>
+            </div>
+            <div class="contendorAbajoDeAlMedio">
+                <div class="contenedorIzquierdaDeAbajo">
+                    <div class="lenguaje">
+                        <h2>Lenguajes Favoritos</h2>
+                    </div>
+                    <br>
+                    <div class="contenedorlistaLenguajes">
+                        <img src="static/files/c++.jpg" height="80%">
+                        <img src="static/files/python.jpg" height="80%">
+                    </div>
+                </div>
+                <div class="contenedorDerechaDeAbajo">
+                    <div class="fechaCumpleanios">
+                        <h2>Fecha De Nacimiento</h2>
+                    </div>
+                    <br>
+                    <div class="fotoCumpleanios">
+                        <img src="static/files/birthday.png" width="90%">
+                    </div>
                 </div>
             </div>
-            <div class="contenedorMedio">
-                <div class="videoPerfil">
-                    <h2>Fecha De Nacimiento</h2>
+            <div id="proyectos" class="contenedorAbajo">
+                <div class="proyecto">
+                    <h2>PROYECTOS</h2>
                 </div>
+                <div class="proyectos">
+                    <div class="itemProyectos1">
+                        <p>Mi manual, este es un proyecto que realize tomando
+                            en cuenta las etiquetas mas importantes de html,css
+                            para poder resumirlo y subirlo en una pagina web
+                        </p>
+                        <center><a href="https://dastianrei.github.io/miManual/"><img
+                                    src="https://cdn-icons-png.flaticon.com/128/4403/4403455.png" width="25%"
+                                    height="25%"></a></center>
+                    </div>
+                    <div class="itemProyectos2">
+                        <p>Este proyecto se basa en usar Machine Learning(IA) para
+                            poder realizar una estimacion del dolar en base al tiempo.
+                        </p>
+                        <center><a href="https://github.com/DastianRei/PrediccionDolar/blob/main/main.py">
+                                <img src="https://static.vecteezy.com/system/resources/previews/005/305/261/non_2x/dollar-illustration-on-a-transparent-background-premium-quality-symbols-line-flat-color-icon-for-concept-and-graphic-design-vector.jpg"
+                                    width="25%">
+                            </a></center>
+                    </div>
+                </div>
+                <div class="footer">
 
-                <div class="calendario">
-                    
-                    <img src="static/files/birthday.png" width="100%">
-                </div>
-                
-            </div>
-            <div class="contenedorIzquierdo">
-                <div class="titulo">
-                    <h1>Proyectos</h1>
-                </div>
-                <div class="manual">
-                    <p>Mi manual, este es un proyecto que realize tomando
-                        en cuenta las etiquetas mas importantes de html,css
-                        para poder resumirlo y subirlo en una pagina web
-                    </p>
-                    <center><a href="https://dastianrei.github.io/miManual/"><img
-                                src="https://cdn-icons-png.flaticon.com/128/4403/4403455.png" width="25%" height="25%"></a></center>
-                </div>
-                <div class="prediccionDolar">
-                    <p>Este proyecto se basa en usar Machine Learning(IA) para
-                        poder realizar una estimacion del dolar en base al tiempo.
-                    </p>
-                    <center><a href="https://github.com/DastianRei/PrediccionDolar/blob/main/main.py">
-                        <img src="https://static.vecteezy.com/system/resources/previews/005/305/261/non_2x/dollar-illustration-on-a-transparent-background-premium-quality-symbols-line-flat-color-icon-for-concept-and-graphic-design-vector.jpg" width="25%">
-                    </a></center>
+                        <a class="footer-link" href="https://www.linkedin.com/in/dayan-aguilar-alcocer-ab4a14242/"><img src="https://images.vexels.com/media/users/3/137382/isolated/lists/c59b2807ea44f0d70f41ca73c61d281d-logotipo-de-icono-de-linkedin.png" width="5%"></a>
+                        <a class="footer-link" href="https://www.facebook.com/dayan.aguilar.75/"><img src="https://cdn.icon-icons.com/icons2/1109/PNG/512/1486053608-facebook_79182.png" width="4.8%"></a>
+                        <a class="footer-link" href="https://github.com/DastianRei"><img src="static/files/github-removebg-preview.png" width="5%"></a>
+                        <div class="contactarme">
+                            <a class="btn" href="mailto:aguilaralcocerdayan@gmail.com">contactarme</a>
+
+                        <footer class="copyright">2022 Dayan Aguilar</footer>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="contenedorAbajo">
-            <a class="footer-link" href="https://www.linkedin.com/in/dayan-aguilar-alcocer-ab4a14242/"><img
-                    src="https://images.vexels.com/media/users/3/137382/isolated/lists/c59b2807ea44f0d70f41ca73c61d281d-logotipo-de-icono-de-linkedin.png"
-                    width="5%"></a>
-            <a class="footer-link" href="https://www.facebook.com/dayan.aguilar.75/"><img
-                    src="https://cdn.icon-icons.com/icons2/1109/PNG/512/1486053608-facebook_79182.png" width="4.8%"></a>
-            <a class="footer-link" href="https://github.com/DastianRei"><img src="static/files/github-removebg-preview.png" width="5%"></a>
-            <div class="contactarme">
-                <a class="btn" href="mailto:aguilaralcocerdayan@gmail.com">contactarme</a>
-            </div>
-            <footer class="copyright">2022 Dayan Aguilar</footer>
-        </div>
+    </div>
+
     </div>
 </body>
 
